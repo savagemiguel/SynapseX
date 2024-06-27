@@ -10,6 +10,7 @@ echo "========= $(date) ========="
 workshopFile='workshop.txt'
 steamCMD='YOUR STEAMCMD.SH PATH HERE'
 installLocation='YOUR QL INSTALL LOCATION HERE'
+steamID='YOUR STEAM ID HERE'
 workshopIDs=`cat $installLocation/baseq3/$workshopFile | grep -v '#' | sed '/^[ \t]*$/d'`
 numOfIDs=`echo "$workshopIDs" | wc -l`
 counter=0
@@ -19,7 +20,7 @@ while [ $counter -lt $numOfIDs ]; do
 	workshopIDs=`echo $workshopIDs | cut -d ' ' -f2-`
 	if [ ! -d "$installLocation/steamapps/workshop/content/282440/$currentID" ]; then
 		echo -e "$(timestamp) Downloading item $(expr $counter + 1) of $numOfIDs from Steam with id $currentID "
-		$steamCMD/steamcmd.sh +force_install_dir $installLocation/ +login savageyota +workshop_download_item 282440 $currentID +quit
+		$steamCMD/steamcmd.sh +force_install_dir $installLocation/ +login $steamID +workshop_download_item 282440 $currentID +quit
 		if [ $? -ne 0 ]; then
 			echo -e "$(timestamp) Download of id $currentID failed with steamcmd error code $? "
 		else
